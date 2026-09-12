@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 console.log("this is function mastery");
 const greet = (name, id) => {
     return `welcome ,${name} , your id is , ${id}`;
@@ -30,4 +32,5 @@ console.log(getnumber());
 num.forEach((num) => {
     console.log(num);
 });
-export {};
+console.log("hllo");
+//# sourceMappingURL=index.js.map

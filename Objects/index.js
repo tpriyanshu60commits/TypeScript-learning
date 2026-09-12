@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 console.log("this is typescript objects");
 const person = {
     name: "Priyanshu",
@@ -14,3 +15,4 @@ const user = {
     },
 };
 console.log(user);
+//# sourceMappingURL=index.js.map

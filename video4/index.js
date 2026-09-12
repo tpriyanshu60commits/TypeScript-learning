@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 let longtext = "hello this is a long text";
 let shortText = longtext.substring(0, 10);
 console.log(shortText);
@@ -26,5 +28,5 @@ function isDivisibleby4or8(a) {
         return false;
     }
 }
-console.log(isDivisibleby4or8(16));
-export {};
+console.log(isDivisibleby4or8(4));
+//# sourceMappingURL=index.js.map

@@ -35,3 +35,4 @@ console.log(getnumber());
 num.forEach((num:number)=>{
     console.log(num);
 })
+console.log("hllo")

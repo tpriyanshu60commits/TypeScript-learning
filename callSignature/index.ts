@@ -6,11 +6,11 @@ type Data1 = {
   gender?: string;
   greet: (country: string) => string;
 };
-const user1: Data1 = {
+const userData: Data1 = {
   name: "priyanshu",
   age: 54,
   greet: (country): string => {
     return `hello my country is ${country}`;
   },
 };
-console.log(user1.greet("europe"))
+console.log(userData.greet("europe"))
